@@ -14,7 +14,7 @@ const [info, setInfo] = useState(data)
   <main>
     <div className='container'>
     <h3>{day} birthdays today</h3>
-    <List info={info} clearInfo={clearInfo}/>
+    <List info={info}/>
     <button onClick={clearInfo}>Clear All</button>
     </div>
   </main>

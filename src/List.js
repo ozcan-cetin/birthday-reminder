@@ -1,6 +1,6 @@
 import React from 'react';
 
-const List = ({info, clearInfo}) => {
+const List = ({info}) => {
   return (
     <>
       {info?.map((e, i)=>{
